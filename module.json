@@ -2,13 +2,12 @@
   "id": "uollazzi-content-module",
   "title": "Uollazzi Content Module",
   "description": "A collection of my content.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "Uollazzi",
-      "discord": "uollazzi",
       "url": "https://www.mywebsite.com/",
-      "flags": {}
+      "discord": "uollazzi"
     }
   ],
   "compatibility": {
@@ -17,94 +16,77 @@
   },
   "packs": [
     {
-      "name": "module-creatures",
-      "label": "Module Creatures",
-      "path": "packs/creatures",
+      "name": "actors",
+      "label": "Actors",
+      "path": "packs/actors",
       "type": "Actor",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      "system": "wfrp4e"
     },
     {
-      "name": "module-items",
-      "label": "Module Items",
+      "name": "items",
+      "label": "Items",
       "path": "packs/items",
       "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      "system": "wfrp4e"
     },
     {
-      "name": "module-scenes",
-      "label": "Module Scenes",
+      "name": "scenes",
+      "label": "Scenes",
       "path": "packs/scenes",
       "type": "Scene",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      "system": "wfrp4e"
     },
     {
-      "name": "module-journal-entries",
-      "label": "Module Journal Entries",
-      "path": "packs/journal-entries",
+      "name": "journals",
+      "label": "Journals",
+      "path": "packs/journals",
       "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      "system": "wfrp4e"
     },
     {
-      "name": "module-macros",
-      "label": "Module Macros",
+      "name": "macros",
+      "label": "Macros",
       "path": "packs/macros",
       "type": "Macro",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      "system": "wfrp4e"
     },
     {
-      "name": "module-roll-tables",
-      "label": "Module Roll Tables",
+      "name": "tables",
+      "label": "Tables",
       "path": "packs/roll-tables",
       "type": "RollTable",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      "system": "wfrp4e"
     },
     {
-      "name": "module-playlists",
-      "label": "Module Playlists",
+      "name": "playlists",
+      "label": "Playlists",
       "path": "packs/playlists",
       "type": "Playlist",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      "system": "wfrp4e"
     },
     {
-      "name": "module-adventures",
-      "label": "Module Adventures",
+      "name": "adventures",
+      "label": "Adventures",
       "path": "packs/adventures",
       "type": "Adventure",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      "system": "wfrp4e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Uollazzi",
+      "sorting": "m",
+      "color": "#085872",
+      "packs": [
+        "actors",
+        "items",
+        "journals",
+        "tables",
+        "scenes",
+        "adventures",
+        "macros",
+        "playlists"
+      ]
     }
   ],
   "manifest": "https://raw.githubusercontent.com/uollazzi/uollazzi-content-module/main/module.json",

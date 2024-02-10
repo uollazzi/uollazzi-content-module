@@ -107,6 +107,6 @@
       "flags": {}
     }
   ],
-  "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
-  "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+  "manifest": "https://raw.githubusercontent.com/uollazzi/uollazzi-content-module/main/module.json",
+  "download": "https://github.com/uollazzi/uollazzi-content-module/archive/refs/heads/main.zip"
 }
